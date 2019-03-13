@@ -1,8 +1,8 @@
 package extra;
 
-import java.awt.Dimension;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.net.MalformedURLException;
 import java.net.URL;
 
 import javax.swing.Icon;
@@ -30,9 +30,7 @@ public class moneytrashbin implements ActionListener {
 		//frame.setSize(500, 500);
 		button.setText("SPIN");
 		button.addActionListener(this);
-		JLabel l1 = createLabelImage("cherry.jpg");
-		l1.setPreferredSize(new Dimension(250, 250));
-		panel.add(l1);
+		panel.add(createLabelImage("cherry.jpg"));
 		panel.add(createLabelImage("orange.jpg"));
 		panel.add(createLabelImage("xbox.png"));
 		
