@@ -21,7 +21,9 @@ public class calculator implements ActionListener {
 	JButton div = new JButton();
 
 	public static void main(String[] args) {
-		calculator math = new calculator();
+		//calculator math = new calculator();
+		int x = (int)9.999999;
+		System.out.println(x);
 	}
 
 	calculator() {
